@@ -47,14 +47,14 @@ Writing about science to the media 2022 2 days Rita Ponce (EvoKE)
 
 # 🎓 Education
 
-| School Year | Qualification | Institution | Comments |
-| ----------- | ------------- | ----------- | -------- |
+| School Year | Qualification | Institution | 
+| ----------- | ------------- | ----------- | 
 | 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |  |
-| 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | University of Pierre et Marie Curie | Specialism in Evolutionary Ecology. Graduated with high honours: Ranked 5th out of 68, Average 16.5/20 |
-| 2015–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | One of the most prestigious Graduate Schools in France |
-| 2015–2016 | Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | Two-year intensive preparation for the entrance exams to French Graduate Schools. Ranked 176th out of 2,054 candidates in the national entrance exam for Agronomic and Veterinary Schools |
+| 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | University of Pierre et Marie Curie | 
+| 2015–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | 
+| 2015–2016 | Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | 
 
-: {.striped tbl-colwidths="[10,20,20,50]"}
+: {.striped tbl-colwidths="[15,25,25,35]"}
 
 # Teaching
 
