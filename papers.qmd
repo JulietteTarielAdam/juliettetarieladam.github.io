@@ -1,0 +1,19 @@
+---
+title: "Juliette Tariel-Adam's publications"
+bibliography: publications/mypublications.bib
+nocite: |
+  @*
+---
+
+# 👤 Profiles 
+
+{{< fa brands google-scholar >}} Google Scholar profile: [https://scholar.google.com/citations?user=G9RqHDIAAAAJ&hl=en&oi=ao](https://scholar.google.com/citations?user=G9RqHDIAAAAJ&hl=en&oi=ao)
+
+{{< fa brands orcid >}} ORCID profile:  [https://orcid.org/0000-0003-1552-4088](https://orcid.org/0000-0003-1552-4088)
+
+{{< fa brands researchgate >}} Research Gate profile: [https://www.researchgate.net/profile/Juliette-Tariel-Adam](https://www.researchgate.net/profile/Juliette-Tariel-Adam)
+
+# 📃 Publication list
+::: {#refs}
+:::
+

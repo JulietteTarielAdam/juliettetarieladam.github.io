@@ -1,0 +1,41 @@
+#title-block-header {
+    display: none;
+}
+
+/* bold title navbar */
+.navbar-title {
+    font-weight: 800;
+}
+
+/* background picture */
+body {
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(images/background-image.jpg);
+  background-repeat: no-repeat;
+}
+
+#quarto-document-content {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.nav-footer {
+  background-color: #78c2ad; /* same as header background */
+  color: white;
+  padding: 0.5em; 
+}
+
+div.nav-footer {
+  height: 1em;
+}
+
+.nav-footer a {
+  color: white;
+}
+

@@ -1,0 +1,65 @@
+---
+title: "Juliette Tariel-Adam's CV"
+---
+
+# 📃 Publications
+
+[Publication list](papers.qmd#publication-list)
+
+# ☀️ Commitments to open science
+
+[Commitments](commitments.qmd)
+
+# 🏋️ Research experience
+
+[Ongoing and past projects](projects.qmd)
+
+# 🤿 Occupational diving experience
+
+
+# 🛠️ Skills
+## 💻 Statistical analysis
++ Linear models in R including generalised and mixed models
++ Complex random effect structure of linear models using frequentist and Bayesian approaches in R to model behavioural individuality and plasticity
++ Principal Component Analysis in R
++ Survival analysis in R 
++ Quantitative analysis 
+
+## Fieldwork
+
+
+
+
+## General academic researcher skills
++ Student supervision
++ Literature review
++ Grant writing 
++ Peer-review
++ Outreach
+Writing about science to the media 2022 2 days Rita Ponce (EvoKE)
+
+## Molecular biology
++ RAD sequencing: DNA extraction, sample preparation for Illumina sequencing
++ Microsatellite markers: DNA extraction, PCR and peak assignment on Geneious
++ Parentage analysis with the software Colony
++ Genetic structure analysis with the software Genetix
+
+
+# 🎓 Education
+
+| School Year | Qualification | Institution | Comments |
+| ----------- | ------------- | ----------- | -------- |
+| 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |  |
+| 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | University of Pierre et Marie Curie | Specialism in Evolutionary Ecology. Graduated with high honours: Ranked 5th out of 68, Average 16.5/20 |
+| 2015–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | One of the most prestigious Graduate Schools in France |
+| 2015–2016 | Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | Two-year intensive preparation for the entrance exams to French Graduate Schools. Ranked 176th out of 2,054 candidates in the national entrance exam for Agronomic and Veterinary Schools |
+
+: {.striped tbl-colwidths="[10,20,20,50]"}
+
+# Teaching
+
+
+
+# Conference contributions
+
+# Grants

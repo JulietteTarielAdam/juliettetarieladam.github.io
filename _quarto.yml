@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Juliette Tariel-Adam"
+  description: "Personal website of Juliette Tariel-Adam, an early-career researcher studying how fish evolve and behave."
+  favicon: images/favicon.ico
+  navbar:
+    search: false
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: "Papers"
+        file: papers.qmd
+      - text: "CV"
+        file: CV.qmd
+      - text: "Commitments"
+        file: commitments.qmd
+    right:
+      - text: "✉ juliette.tarieladam@gmail.com"
+        href: "mailto:juliette.tarieladam@gmail.com"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/juliette-tariel-adam/
+        
+        
+  page-footer:
+    left: "Background image by [Artur Rydzewski](https://www.flickr.com/photos/119200904@N07/23918235347)"
+    right: "Website made in [Quarto](XXXXlinkXXX)"
+
+format:
+  html:
+    theme:
+      - minty # other possible themes: materia, lumen, cerulean
+    css: styles.css
+
+bibliography: publications/mypublications.bib
+csl: publications/csl-website-jta.csl

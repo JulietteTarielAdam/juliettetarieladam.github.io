@@ -1,0 +1,18 @@
+---
+title: "Home Page - Personal website of Juliette Tariel-Adam "
+about:
+  template: solana
+  image: images/Photo home page.jpg
+  image-shape: round
+  image-alt: "Photo of Juliette Tariel-Adam"
+---
+
+🙂 Hi there, thanks for visiting my personal website.
+
+🐟 I am an early-career researcher interested in evolution, marine biology, and animal behaviour. I'm fascinated by fish and marine life in general.
+
+👀 I'm looking for a new postdoctoral research position focused on fish behaviour and cognition, ideally working on behavioural traditions of coral reef fish. Feel free to contact me to connect.
+
+📍 I currently hold an honorary postdoctoral position at Macquarie University. I work on a [project about fishes that use tools](https://fishtooluse.com) remotely from France. See all my [current and past projects here](projects.qmd).
+
+✨ I'm also involved in the scientific society [SORTEE](https://sortee.org), where I serve on the board of directors, the conference committee, and the DEI committee. See [my committments here](commitments.qmd) towards a science that is respectful and caring to all humans and living beings.
