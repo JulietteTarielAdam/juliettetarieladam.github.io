@@ -4,6 +4,7 @@ project:
   resources:
     - pdfs
     - images
+    - publications
 
 website:
   title: "Juliette Tariel-Adam"
