@@ -1,54 +1,95 @@
+> “In the end, we will conserve only what we love, we will love only what we understand, and we will understand only what we are taught.” Baba Dioum at the General Assembly of the IUCN held in New Delhi in 1968.
 
-open science practices
+I would like to help ensure that the scientific community creates reliable and accessible knowledge that benefits all living beings. You can find my contributions toward this goal below. 
 
-+ Engagement DEI
-	+ Aboriginal training 
-	Ally LGBTIQ+ training 2023 1 day Macquarie University
-Aboriginal Culture Safety Training 2023 1 day Macquarie University
+# 🌞 Open Science[^1]
 
-Travelling to conferences by train
+[^1]: What is Open Science? Open science involves many initiatives and practices that aims at make scientific results reliable and available for everyone, and open the process of scientific creation to everyone, while making sure those scientific results are beneficial for humanity. You can find a nice description of [what is open science by the UNESCO here](https://www.unesco.org/en/articles/introduction-unesco-recommendation-open-science){target="_blank"}. 
 
-Avoid buying and reusing
-Make an inventory before 
-Take time to ask different labs about their resources rather than buying new ones
+### Volunteering
 
-Long lasting computer
++ Volunteer with [SORTEE](https://sortee.org)[^2] (Society for Open, Reliable and Transparent biology in
+Ecology and Evolution):
+  - Member of the Board of directors (since 2026)
+  - Conference Committee member (since 2023): Organised the SORTEE online conference on open science as Chair in 2025 and as Program Manager in 2023 and 2024
+  
+[^2]: What is SORTEE? SORTEE is not just a scientific society – it is an inspiring community full of motivated and knowledgeable people. I highly recommend joining, regardless of your career stage or experience with open science. As a member, you will gain access to an active Slack channel for support, information on open science initiatives and job opportunities, free events like conferences, code clubs, workshops, seminars, and networking opportunities to find collaborators.
 
-Online conferences
++ Volunteer with the [Peer Community Journal](https://peercommunityjournal.org)[^3]:
+  - Data editor (to start in 2026): Reviewing data and code before publication
+  - Final editing and references checking before publication (2024-2025)
 
-# Open science
+[^3]: What is the Peer Community Journal? The Peer Community Journal (PCJ) is the journal of the [Peer Community In](https://peercommunityin.org) (PCI) initiative. PCI seeks to address issues in the current publication system by creating communities in different fields to review and recommend preprints. This aims to free researchers from reliance on commercial publishers and promotes evaluating their work based on quality rather than metrics. Each PCI recommendation includes a short paragraph explaining the importance and quality of the publication, making it easier to assess a researcher’s work by reading these recommendations instead of looking at their h-index or citation counts.
+
+### Training others
+
++ Attended the Train-the-Trainer workshops in 2026 offered by the Horizon Europe initiative [iRISE](https://irise-project.eu)
++ Attended the [Open Science Instructor Training](https://lmu-osc.github.io/events/events/2025-09-15-lmu-open-science-summer-school.html) in 2025 offered by the LMU Open Science Center
++ Introduced and informally discussed open science issues and solutions with colleagues in my PhD and postdoc labs
++ Created and delivered a presentation to my PhD and postdoc teams on key problems in the current publication system and how to address them
+- Created and shared a [table comparing journals in biology](https://juliettetarieladam.notion.site/c75ab3f7555945fd918a1522ce3d83b3?v=27e375667b258023b696000c18bdbfb0&pvs=74) based on their publication model and publisher
+  
+### Practices 
+
++ Carefully choose journals for publication
+  - Published the final paper from my PhD in the Peer Community Journal. It has been a challenging process to stand up against what my supervisors preferred.
+  - Published my first postdoc paper in Coral Reefs. I initially submitted the paper to Marine Ecology Progress Series, but it was rejected. I couldn't find any other ethical journal in marine biology within the scope of my study, so I then chose Coral Reefs. It is affiliated with a scientific society but is hosted by Springer and has a hybrid publication system.
+  - I plan to publish my future publications in the PCJ or fully open-access journals hosted by non-profit organisations.
+  
++ Share datasets and code following FAIR principles. I have shared all datasets and code for publications in which I was responsible for data analysis. I have continuously improved my practices and deposited these materials in non-profit, free, long-term repositories. These deposits include clear annotations, structured folders, a README file, a data dictionary, an appropriate licence, and data-wrangling steps.
+
++ Publish in open access. Find all PDFS of my publications on the [Papers page](papers.qmd#publication-list).
+
+### Getting trained
++ Attended the [Summer School Open Science 2023](https://lmu-osc.github.io/OSC-Open-Research-Summer-School-2023/) hosted by the LMU Open Science Center
++ Attended the [Oxford|Berlin Summer School on Open Research 2021](https://s-quest.bihealth.org/BeOx/index.html) 
++ Attended [annual SORTEE conferences](https://sortee.org/past/) on open science since 2021
+
+# 🌈 Diversity, Equity and Inclusion (DEI)[^4]
+
+[^4]: What is DEI? Diversity, Equity and Inclusion involves many initiatives and practices that aims at creating an environment where everyone feel safe, welcomed, respected and valued and where everyone get the same opportunities to participate in the scientific process. 
+
+### Volunteering
+
++ Volunteer in the DEI Committee at SORTEE in 2026
+
+### Collaborative projects
+
++ Participate in three colloborative projects lead by the amazing Malgorzata (Losia) Lagisz:
+  - Diversity of DEI committees across international learned societies in Ecology and Evolutionary Biology
+  - Diversity of awards gave by international learned societies in Ecology and Evolutionary Biology
+  - Creating a global list of international learned societies in Ecology and Evolutionary Biology
+
+### Practices
++ Display  LGBTIQ+ and First Nations flags in my office
++ Use a [color blindness simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) to design my figures
+
+### Getting trained
++ Attended the Ally LGBTIQ+ training in 2023 offered by Macquarie University
++ Attended the  Aboriginal Culture Safety Training in 2023 offered by Macquarie University
+
+# ♻️ Sustainable science
+
+Scientists aim to protect living beings, and yet our work often contributes to climate change and pollution. For example, [an academic researcher from the CNRS emits more CO₂](https://www.cnrs.fr/fr/actualite/le-cnrs-calcule-son-deuxieme-bilan-carbone) annually than the average French citizen. This needs to change.
+
+### Practices
++ Use trains for travel since 2022, with exceptions for the 2023 IPFC in New Zealand and fieldwork in Exmouth in 2025
++ Avoid buying new equipment:
+  - Take the time to ask colleagues to borrow their equipment for my experiments instead of purchasing it
+  - Continue using the same computer since 2016
+
+# ❤️ Animal welfare
+
+### Practices
++ Limit lab experiments[^5]. During my postdoc, I chose to conduct only fieldwork and no laboratory experiments.
+
+[^5]: Keeping marine fish in aquariums is challenging, and sourcing these fish can be problematic. I wanted to avoid collecting fish from the reef or dying in the lab for my research. During my field observations, fish participated in the experiments willingly, so I didn’t need to catch them. Unfortunately, I did have to catch and sacrifice ghost crabs as part of my experiments to use them as food for fish. However, there was no waste – every crab I caught was consumed by fish. Wrasses love eating crabs!
 
 
+# 🤷 Why doing science?
 
+I see science as a tool to create connections between all living beings, inspire wonder, foster care, and support living together respectfully. We can only take good care of those we truly know: their needs, their limits, and what doesn’t bother them actually.
 
-## Ongoing commitments
+I do not want to continue to the tradition of using science as a tool to exploit other living beings for the comfort of a small group of humans. Nor do I want science to focus on finding illusory technological solutions to the destruction and suffering caused by certain human activities.
 
-+ Carefully analyse most ethical journals
-Link to the table
-## Past initiatives
-Open science practices
-Summer School
-Workshop open science training 
-Workshop Preregistration, data simulation 2021 1 day Malika Ihle
-
-
-• Active member of SORTEE (Society for Open, Reliable and Transparent biology in
-Ecology and Evolution)
-- 2025: Chair, Conference Committee
-- 2023-2024: Program Manager, Conference Committee
-• Volunteer for Peer Community In (PCI)
-- 2024-2025: Article formatting
-- 2025: Data and script reviewing
-• Commitment to ethical scientific publishing
-- Published the final paper from my PhD in Peer Community Journal
-- For my first postdoctoral paper, I could not find an ideal journal in marine biology,
-so I chose Coral Reefs, which is at least supported by a scientific society
-## Future commitments
-
-# Diversity, Equity and Inclusion
-## Ongoing commitments
-+ Member of the DEI committee in the scientific society SORTEE
-+ Check digital accessibility in my papers (use of color blindness simulator, provide alt text for images, text and contrast big enough, meaningful hyperlink texts)
-
-# Sustainability
-
+During my research journey, I have also noticed that the current scientific system often produces unreliable and inaccessible results, while remaining unequal in terms of who can participate and whose ideas are valued. This is why I have started working to make small contributions toward improving the system.

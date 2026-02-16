@@ -9,10 +9,10 @@ about:
 
 🙂 Hi there, thanks for visiting my personal website.
 
-🐟 I am an early-career researcher interested in evolution, marine biology, and animal behaviour. I'm fascinated by fish and marine life in general.
+🐟 I am an early-career researcher interested in how fish and other marine organisms evolve and behave. 
 
-👀 I'm looking for a new postdoctoral research position focused on fish behaviour and cognition, ideally working on behavioural traditions of coral reef fish. Feel free to contact me to connect.
+👀 I am looking for a new postdoctoral position focused on fish behaviour and cognition, ideally working on behavioural traditions of coral reef fish. Feel free to contact me to connect.
 
-📍 I currently hold an honorary postdoctoral position at Macquarie University. I work on a [project about fishes that use tools](https://fishtooluse.com) remotely from France. See all my [current and past projects here](projects.qmd).
+📍 I currently hold an honorary postdoctoral position at Macquarie University. I work on a [project about fishes that use tools](https://fishtooluse.com){target="_blank"} remotely from France. You can find all my [ongoing and past projects here](projects.qmd).
 
-✨ I'm also involved in the scientific society [SORTEE](https://sortee.org), where I serve on the board of directors, the conference committee, and the DEI committee. See [my committments here](commitments.qmd) towards a science that is respectful and caring to all humans and living beings.
+✨ I'm also involved in the scientific society [SORTEE](https://sortee.org){target="_blank"}, where I serve on the Board of Directors, the Conference Committee, and the DEI Committee. See [my commitments here](commitments.qmd) towards a science that is respectful and caring to all humans and living beings.

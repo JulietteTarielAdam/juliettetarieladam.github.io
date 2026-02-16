@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - pdfs
+    - images
 
 website:
   title: "Juliette Tariel-Adam"
@@ -13,12 +16,13 @@ website:
         file: index.qmd
       - text: "Projects"
         file: projects.qmd
-      - text: "Papers"
-        file: papers.qmd
-      - text: "CV"
-        file: CV.qmd
       - text: "Commitments"
         file: commitments.qmd
+      - text: "CV"
+        file: CV.qmd
+      - text: "Papers"
+        file: papers.qmd
+        
     right:
       - text: "✉ juliette.tarieladam@gmail.com"
         href: "mailto:juliette.tarieladam@gmail.com"
@@ -27,8 +31,9 @@ website:
         
         
   page-footer:
-    left: "Background image by [Artur Rydzewski](https://www.flickr.com/photos/119200904@N07/23918235347)"
-    right: "Website made in [Quarto](XXXXlinkXXX)"
+    left: "Last updated on XX 2026" 
+    center: "Website made in [Quarto](XXXXlinkXXX)"
+    right: "Background image by [Artur Rydzewski](https://www.flickr.com/photos/119200904@N07/23918235347)" 
 
 format:
   html:
@@ -36,5 +41,7 @@ format:
       - minty # other possible themes: materia, lumen, cerulean
     css: styles.css
 
-bibliography: publications/mypublications.bib
+bibliography:
+      - publications/mypublications.bib
+      - publications/talks.bib
 csl: publications/csl-website-jta.csl

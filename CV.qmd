@@ -4,62 +4,184 @@ title: "Juliette Tariel-Adam's CV"
 
 # 📃 Publications
 
-[Publication list](papers.qmd#publication-list)
+Refer to the complete [publication list here](papers.qmd#publication-list).
 
 # ☀️ Commitments to open science
 
-[Commitments](commitments.qmd)
+Explore [my commitments here](commitments.qmd). 
 
 # 🏋️ Research experience
 
-[Ongoing and past projects](projects.qmd)
+See all [ongoing and past projects here](projects.qmd).
 
 # 🤿 Occupational diving experience
 
++ **PADI Dive Master** at Dive Center Manly, Sydney (Nov 2024–Feb 2025). </br>
+Guided many shore dives, scuba diving refresher courses and snorkelling tours for tourists and local divers.
+
++ **Dive Research Coordinator** at Macquarie University (2025). </br>
+Led two research field trips (Sydney and Ningaloo, Australia), with responsibility for dive safety protocols, logistics, and team coordination during dives and snorkel operations. 
 
 # 🛠️ Skills
-## 💻 Statistical analysis
-+ Linear models in R including generalised and mixed models
-+ Complex random effect structure of linear models using frequentist and Bayesian approaches in R to model behavioural individuality and plasticity
-+ Principal Component Analysis in R
-+ Survival analysis in R 
-+ Quantitative analysis 
+## 🐟 Data collection
++ **Fish behaviour in the wild**: Designed and implemented experiments to observe fish behaviour in the field using scuba diving, snorkelling and live or remote video recordings. Analysed videos manually or using Boris software.
++ **Marine fieldwork organisation**: Planned and led two field trips involving scuba diving and snorkelling in Australia. Responsibilities included securing funding, obtaining permits and ethics approval, risk assessments, team training, and field logistics.
++ **Fish behaviour in the lab**: Designed and set up laboratory experiments to video-record fish behaviour (such as tool use, personality, mate choice). Analysed videos manually or with automatic position tracking on R.
++ **Community science**: Developed a campaign to collect data and raise awareness about fish tool use, which included creating a questionnaire, coding a website in CSS and HTML, developing an email sending strategy and creating social media posts.
++ *Snail behaviour and morphology in the lab*: Reared *Physa acuta* snails with or without odours of predators in the lab and assessed their anti-predator defences (morphology and behaviour). Analysed their morphology using ImageJ or the Momocs R package.
++ *Microsatellite sequencing*: Performed DNA extraction, PCR and peak assignment on Geneious.
++ *RAD sequencing*: Performed DNA extraction and library preparation for Illumina sequencing.
 
-## Fieldwork
+## 🔎 Data analysis
+I believe data analysis is my favourite part of the research process. I completed all statistical analyses in my projects and got involved in two projects to help with data analysis (ending up in two publications: [Clark-Shen et al. 2024](https://doi.org/10.1017/awf.2024.67){target="_blank"} and [Loéva et al. 2025](https://doi.org/10.1016/j.anbehav.2025.123370){target="_blank"}). I have also taught data analysis.
+
++ *Data wrangling* using R and the tidyverse R package
++ *Linear models* in R including generalised and mixed models
++ *Complex random effect structure modelling* of linear models using frequentist and Bayesian approaches in R to model behavioural individuality and plasticity
++ *Principal Component Analysis* in R
++ *Survival analysis* in R 
++ *Quantitative genetics* 
++ *Parentage analysis* with the software Colony
++ *Genetic structure analysis* with the software Genetix
+
+## 💻 Data management
++ *Version control* using git
++ *Code and data sharing*: Prepared datasets, data dictionaries, annotated codes and licences following FAIR principles. Shared them on GitHub, Zenodo or OSF.
++ *Reproducible workflow*: Created clear folder structures within R projects, used renv for dependency management, automated data processing and figure generation, annotated code.
+
+## 🤗️ Result Sharing and Outreach
++ **Conference organisation**: Chair of the [SORTEE](https://sortee.org){target="_blank"} conference committee in 2025, overseeing the successful organisation of their virtual conference on open science. Served as the program manager of the SORTEE conference committee in 2023 and 2024.
+
++ **Social media engagement**: Developed a social media campaign for the fish tool use project. Produced engaging posts and reels for Instagram using Adobe Premiere Pro.
+
++ **Press release writing**: Wrote two press releases and followed a [2-day science communitication online workshop](https://zenodo.org/records/7050776){target="_blank"}. 
+
++ **Popular science communication**: [Interviewed for a Canadian radio](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/16138215-animal-tool-use-fishy){target="_blank"}. Reached the semi-finals of the 2023 FameLab competition, which included a one-day online training in science communication.
+
++ **Popular science writing**: Authored two popular science articles in French about my PhD project ([article 1](https://www.univ-lyon1.fr/actu-recherche/comment-les-animaux-acquierent-il-leur-personnalite){target="_blank"} and [article 2](
+https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un-mecanisme-dadaptation-aux-changements-environnementaux/){target="_blank"}).
+
++ **Academic communication**:
+  - *Collaborative paper writing*: Managed collaborative writing with multiple authors.
+  - *Document writing and editing*: Wrote manuscripts on LateX, Word or Google Docs.
+  - *Oral and poster presentation* at scientific conferences. Used powerpoint (oral presentation) or Adobe Illustrator (poster). See all [my conference contributions here](#talks).
+  - *Scientific figure creation*: I believe figure creation is the my second favourite part of the research process, after data analysis! I use Adobe Illustrator, Inkscape and the ggplot2 R package.
+
+## Other academic skills
+
++ **Teaching**. See full list of [teaching activities here](#teaching).
+
++ **Student supervision**. 
+  - Supervised 2 graduate and 2 undergraduate students in media and communication, 1 undergraduate in education for the fish tool use project: Wayne Inchiparambil, Faria Awais, Anietta Susane Samuel, Simran Wadhwa, Nicole Romanos.
+  - Co-supervised 5 graduate and 1 undergraduate biology students: Cyndi-Lee Harrison-Burgess,Loéva Martin-Podevin, Alice Fontaine, Anaïs Arzel, Estelle Champion, Delia Ben Sussan.
+  - Attended a half-day workshop 'Giving effective feedback' co-organised by Hugh Kearns and Macquarie University.
+  - I would like to receive more supervision training in my next position.
+
++ **Science editing**: Performed final editing and reference review of manuscripts using Word and LaTeX for [Peer Community Journal](https://peercommunityjournal.org) in 2023 and 2024.
+
++ **Grant writing**: See the list of [awarded grants here](#grants).
+
++ **Peer-review**. Full peer-review record available on [my ORCID profile](https://orcid.org/0000-0003-1552-4088){target="_blank"}. 
+
++ *Literature search and review, reference management* using Zotero: Wrote a literature review on my PhD project and postdoc project.
+
++ *Project management*: Managed a scientific project from designing and securing funding to sharing the results.
+
+## Other personal and interpersonal skills
++ *Teamwork and collaboration*:  Worked both in person and remotely with international teams.
++ *Team management*. Coordinated team of 3-4 people for lab experiments and fieldwork.
++ *Fluent in English and French*
++ *International relations*
++ *Self-motivation and management*
++ *Adaptation to change and flexibility*: Completed four research internships, one PhD and one postdoc, all of which in different labs and 4 different countries
++ *Problem solving and creative thinking*: Academic research requires daily problem-solving and the ability to address unexpected challenges.
++ *Attention to detail*: Research work demands meticulous attention to detail to minimise errors and ensure accurate findings
 
 
+# 🎓 Academic positions and Education
 
-
-## General academic researcher skills
-+ Student supervision
-+ Literature review
-+ Grant writing 
-+ Peer-review
-+ Outreach
-Writing about science to the media 2022 2 days Rita Ponce (EvoKE)
-
-## Molecular biology
-+ RAD sequencing: DNA extraction, sample preparation for Illumina sequencing
-+ Microsatellite markers: DNA extraction, PCR and peak assignment on Geneious
-+ Parentage analysis with the software Colony
-+ Genetic structure analysis with the software Genetix
-
-
-# 🎓 Education
-
-| School Year | Qualification | Institution | 
-| ----------- | ------------- | ----------- | 
-| 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |  |
+| Year | Position or degree | Institution | 
+| ---- | ------------------ | ----------- | 
+| 2024–ongoing | Honorary postdoctoral researcher | Macquarie University |
+| 2022–2024 | Postdoctoral researcher | Macquarie University |
+| 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |
 | 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | University of Pierre et Marie Curie | 
 | 2015–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | 
 | 2015–2016 | Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | 
 
-: {.striped tbl-colwidths="[15,25,25,35]"}
-
-# Teaching
+: {.striped tbl-colwidths="[20,40,40]"}
 
 
 
-# Conference contributions
+# 👩‍🏫 Teaching
 
-# Grants
+## Teaching positions
+
+| School Year | Qualification | Institution | 
+| ----------- | ------------- | ----------- | 
+| 2024 | Lead sessional teacher | Macquarie University |
+| 2024 | Sessional teacher | Macquarie University |
+| 2017–2020 | Teaching position (Activité Complémentaire d'Enseignement) | Claude Bernard Lyon 1 University |
+
+: {.striped tbl-colwidths="[15,50,35]"}
+
+## Taught hours
+
+| Year | Topic | Institution | Students | Hours | Content |
+| ---- | ----- | ----------- | -------- | ----- | ------- | 
+| 2024 | Lead tutor | Macquarie University | First-year bachelor | 27 | Supported students and unit coordinator, managed online learning platform |
+| 2024 | Animal Behaviour | Macquarie University | First-year bachelor | 14 | In-person lab pracs |
+| 2024 | Biodiversity and Conservation fieldtrip | Macquarie University | Third-year bachelor | 24 | Assisted students with fieldwork data collection and analysis in R |
+| 2024 | Life diversity | Macquarie University | Second-year bachelor | 9 | In-person pracs on data collection and analysis using R |
+| 2024 | Biological data analysis | Macquarie University | Second-year bachelor | 24 | Online pracs on various data analysis using R |
+| XXXX | Fieldtrip | Claude Bernard Lyon 1 University | XX | XX | XX |
+| XXXX | Phenotypic plasticity | Claude Bernard Lyon 1 University | Third-year bachelor | XX | In-person pracs on paper analysis and oral presentation |
+| XXXX | Life morphological diversity | Claude Bernard Lyon 1 University | Second-year bachelor | XX | In-person pracs |
+| XXXX | Life diversity | Claude Bernard Lyon 1 University | First-year bachelor | XX | In-person pracs |
+| XXXX | Digital literacy | Claude Bernard Lyon 1 University | First-year bachelor | XX | In-person pracs |
+
+
+: {.striped tbl-colwidths="[7, 22, 22, 14, 1, 32]"}
+
+# 💬 Talks
+## Invited talks
++ 2025, Institute for Applied Ecology seminar, University of Canberra (Australia): 'Fish Using Tools: Uncovering Factors Driving Tool Use Evolution'
++ 2025, MECADEV seminar, Muséum national d'Histoire naturelle (France): 'Des poissons qui utilisent des outils : Comprendre les determinants de l'évolution de la capacité à utiliser des outils'
++ 2024, Evolution & Ecology Research Centre seminar, University of New South Wales (Australia): 'Transgenerational plasticity as a mechanism to adapt to a variable environment?'
++ 2022, School of Natural Sciences seminar, Macquarie University (Australia): 'Transgenerational plasticity as a mechanism to adapt to a variable environment?'
++ 2022, Evolution / Behavior & Evolution seminar, online for Bielefeld University (Germany): 'Characterisation of transgenerational plasticity: the case of predator-induced defences of the gastropod Physa acuta' 
+
+## Oral conference contributions
+
++ ASFB 2024, annual conference of the Australian Society for Fish Biology, Newcastle (Australia): 'Fish using tools: Factors driving tool use evolution'
++ ISBE 2024, biennial meeting of the International Society for Behavioral Ecology, Melbourne (Australia): 'Fish using tools: Factors driving tool use evolution'
++ IPFC 2023, quadrennial Indo-Pacific Fish Conference, Auckland (New Zealand): 'Fish using tools: Factors driving tool use evolution'
++ ISBE 2022, biennial meeting of the International Society for Behavioral Ecology, in Stochkolm (Sweden): 'Timing of predator perception does not shape transgenerationally-induced changes in behaviour'
++ ESEB 2019, biennial congress of the European Society for Evolutionary Biology, Turku (Finland): 'Maternal or paternal contribution to transgenerational plasticity? Study case on anti-predator defences in *Physa acuta*'
++ Ecology & Behaviour symposium 2019, Toulouse (France): 'Parental and developmental environmental effects on behavioral reaction norms in response to predation'
++ Sfe² 2018, International Conference on Ecological Sciences organised by the Sfe² - French Society for Ecology and Evolution, Rennes (France): 'Developmental and transgenerational carry-over effects on behavioural reaction norms in response to predation'
+
+## Poster conference contributions
+
++ SFECA 2025, annual meeting of the Société Française d'Étude du Comportement Animal, Nanterre (France): 'Fish using tools: Factors driving tool use evolution'
++ YNMH 2019, Young Natural History Scientists meeting, Paris (France), ⭐ 2nd poster price: 'Maternal or paternal contributions to transgenerational plasticity of the freshwater snail *Physa acuta* in response to predation'
++ II Joint Congress on Evolutionary Biology 2018, joint congress of the scientific societies ESEB, ASN, SSE and SSB, Montpellier (France): 'Intra- and transgenerational carry-over effects on behavioural reaction norms of the freshwater snail *Physa acuta* in response to predation'
++ Sfe² 2018, International Conference on Ecological Sciences organised by the Sfe² - French Society for Ecology and Evolution, Rennes (France),  ⭐ 1st poster price: 'Maternal or paternal contributions to transgenerational plasticity
+of the freshwater snail *Physa acuta* in response to predation'
+
+
+# 🙌 Grants
+| Grant | Granter | Year | Amount | 
+| ----- | ------- | ---- |------ | 
+| Conference travel grant | SFECA | 2025 | EUR 200 | 
+| Conference travel grant | ISBE | 2024 | EUR 1,200 |
+| Conference travel grant | FSBI | 2023 | GBP 1,000 |
+| Fieldwork research grant | Minderoo Foundation | 2023 | In-king contribution |
+| Small research grant | FSBI | 2023 | GBP 7,500 |
+| Postdoctoral fellowship | Fyssen Foundation | 2022 | EUR 80k |
+| Conference travel grant | ISBE | 2022 |  USD 400 |
+| Conference travel grant | SFECA | 2022 | EUR 250 |
+| Workshop travel grant | GDR PlasPhen | 2017 | EUR 300 |
+| PhD fellowship | École Normale Supérieure de Lyon | 2017 | EUR 64k |
+
+: {.striped tbl-colwidths="[28, 39, 8, 25]"}
