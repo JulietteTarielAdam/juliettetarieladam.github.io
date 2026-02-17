@@ -8,14 +8,14 @@ I would like to help ensure that the scientific community creates reliable and a
 
 # 🌞 Open Science[^1]
 
-[^1]: What is Open Science? Open science involves many initiatives and practices that aims at make scientific results reliable and available for everyone, and open the process of scientific creation to everyone, while making sure those scientific results are beneficial for humanity. You can find a nice description of [what is open science by the UNESCO here](https://www.unesco.org/en/articles/introduction-unesco-recommendation-open-science){target="_blank"}. 
+[^1]: What is Open Science? Open science involves many initiatives and practices that aim at make scientific results reliable, available for everyone and beneficial for humanity, while opening the process of scientific creation to everyone. You can find a nice description of [what is open science by the UNESCO here](https://www.unesco.org/en/articles/introduction-unesco-recommendation-open-science){target="_blank"}. 
 
 ### Volunteering
 
 + Volunteer with [SORTEE](https://sortee.org)[^2] (Society for Open, Reliable and Transparent biology in
 Ecology and Evolution):
   - Member of the Board of directors (since 2026)
-  - Conference Committee member (since 2023): Organised the SORTEE online conference on open science as Chair in 2025 and as Program Manager in 2023 and 2024
+  - Conference Committee member (since 2023): Organise the SORTEE online conference on open science as Past Chair in 2026, Chair in 2025 and as Program Manager in 2023 and 2024
   
 [^2]: What is SORTEE? SORTEE is not just a scientific society – it is an inspiring community full of motivated and knowledgeable people. I highly recommend joining, regardless of your career stage or experience with open science. As a member, you will gain access to an active Slack channel for support, information on open science initiatives and job opportunities, free events like conferences, code clubs, workshops, seminars, and networking opportunities to find collaborators.
 
@@ -40,7 +40,7 @@ Ecology and Evolution):
   - Published my first postdoc paper in Coral Reefs. I initially submitted the paper to Marine Ecology Progress Series, but it was rejected. I couldn't find any other ethical journal in marine biology within the scope of my study, so I then chose Coral Reefs. It is affiliated with a scientific society but is hosted by Springer and has a hybrid publication system.
   - I plan to publish my future publications in the PCJ or fully open-access journals hosted by non-profit organisations.
   
-+ Share datasets and code following FAIR principles. I have shared all datasets and code for publications in which I was responsible for data analysis. I have continuously improved my practices and deposited these materials in non-profit, free, long-term repositories. These deposits include clear annotations, structured folders, a README file, a data dictionary, an appropriate licence, and data-wrangling steps.
++ Share datasets and code following FAIR principles. I have shared all datasets and code for publications in which I was responsible for data analysis. I have continuously improved my practices and deposited these materials in non-profit, free, long-term repositories. These deposits included clear annotations, structured folders, a README file, a data dictionary, an appropriate licence, and data-wrangling steps.
 
 + Publish in open access. Find all PDFS of my publications on the [Papers page](papers.qmd#publication-list).
 
@@ -49,9 +49,13 @@ Ecology and Evolution):
 + Attended the [Oxford|Berlin Summer School on Open Research 2021](https://s-quest.bihealth.org/BeOx/index.html) 
 + Attended [annual SORTEE conferences](https://sortee.org/past/) on open science since 2021
 
+![](images/open-science.png ){fig-alt="Some Open Science principles written under an umbrella" fig-align="center"} 
+
+<!-- https://www.flickr.com/photos/100477638@N03/10204741904 -->
+
 # 🌈 Diversity, Equity and Inclusion (DEI)[^4]
 
-[^4]: What is DEI? Diversity, Equity and Inclusion involves many initiatives and practices that aims at creating an environment where everyone feel safe, welcomed, respected and valued and where everyone get the same opportunities to participate in the scientific process. 
+[^4]: What is DEI? Diversity, Equity and Inclusion involves many initiatives and practices that aim at creating an environment where everyone feel safe, welcomed, respected and valued and get the same opportunities to participate in the scientific process. 
 
 ### Volunteering
 
@@ -72,6 +76,10 @@ Ecology and Evolution):
 + Attended the Ally LGBTIQ+ training in 2023 offered by Macquarie University
 + Attended the  Aboriginal Culture Safety Training in 2023 offered by Macquarie University
 
+![](images/DEI.png ){fig-alt="Silhouettes speaking in coloured speech bubbles" fig-align="center"} 
+
+<!-- https://unsplash.com/fr/photos/note-a-linspecteur-tous-les-modeles-sur-cette-image-ont-signe-des-autorisations-de-modele-certains-modeles-ont-ete-dupliques-plus-dune-fois-15LPiftk-GE -->
+
 # ♻️ Sustainable science
 
 Scientists aim to protect living beings, and yet our work often contributes to climate change and pollution. For example, [an academic researcher from the CNRS emits more CO₂](https://www.cnrs.fr/fr/actualite/le-cnrs-calcule-son-deuxieme-bilan-carbone) annually than the average French citizen. This needs to change.
@@ -79,13 +87,18 @@ Scientists aim to protect living beings, and yet our work often contributes to c
 ### Practices
 + Use trains for travel since 2022, with exceptions for the 2023 IPFC in New Zealand and fieldwork in Exmouth in 2025
 + Avoid buying new equipment:
-  - Take the time to ask colleagues to borrow their equipment for my experiments instead of purchasing it
+  - Take the time to ask colleagues and explore storage rooms for equipment needed for my experiments instead of purchasing them
   - Continue using the same computer since 2016
 
 # ❤️ Animal welfare
 
 ### Practices
-+ Limit lab experiments[^5]. During my postdoc, I chose to conduct only fieldwork and no laboratory experiments.
++ Limit lab experiments. During my postdoc, I chose to conduct only fieldwork and no laboratory experiments[^5].
+
+![](images/blueback.png ){fig-alt="Blue groper and a girl in the Blue Back movie" fig-align="center"} 
+
+
+<!-- https://scienceonscreen.org/films/blueback -->
 
 [^5]: Keeping marine fish in aquariums is challenging, and sourcing these fish can be problematic. I wanted to avoid collecting fish from the reef or dying in the lab for my research. During my field observations, fish participated in the experiments willingly, so I didn’t need to catch them. Unfortunately, I did have to catch and sacrifice ghost crabs as part of my experiments to use them as food for fish. However, there was no waste – every crab I caught was consumed by fish. Wrasses love eating crabs!
 
