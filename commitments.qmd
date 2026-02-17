@@ -76,7 +76,7 @@ Ecology and Evolution):
 + Attended the Ally LGBTIQ+ training in 2023 offered by Macquarie University
 + Attended the  Aboriginal Culture Safety Training in 2023 offered by Macquarie University
 
-![](images/DEI.png ){fig-alt="Silhouettes speaking in coloured speech bubbles" fig-align="center"} 
+![](images/DEI.png){fig-alt="Silhouettes speaking in coloured speech bubbles" fig-align="center"} 
 
 <!-- https://unsplash.com/fr/photos/note-a-linspecteur-tous-les-modeles-sur-cette-image-ont-signe-des-autorisations-de-modele-certains-modeles-ont-ete-dupliques-plus-dune-fois-15LPiftk-GE -->
 
