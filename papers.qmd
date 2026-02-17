@@ -1,5 +1,5 @@
 ---
-title: "Juliette Tariel-Adam's publications"
+title: "JTA's publications"
 bibliography: publications/mypublications.bib
 nocite: |
   @*

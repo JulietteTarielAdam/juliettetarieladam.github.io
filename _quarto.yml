@@ -32,17 +32,17 @@ website:
         
         
   page-footer:
-    left: "Last updated on XX 2026" 
-    center: "Website made in [Quarto](XXXXlinkXXX)"
+    left: "Last updated February 2026" 
+    center: "Website made in [Quarto](https://github.com/JulietteTarielAdam/juliettetarieladam.github.io)"
     right: "Background image by [Artur Rydzewski](https://www.flickr.com/photos/119200904@N07/23918235347)" 
 
 format:
   html:
+    self-contained: false
     theme:
       - minty # other possible themes: materia, lumen, cerulean
     css: styles.css
 
 bibliography:
       - publications/mypublications.bib
-      - publications/talks.bib
 csl: publications/csl-website-jta.csl

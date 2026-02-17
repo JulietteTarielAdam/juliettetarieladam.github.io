@@ -1,5 +1,5 @@
 ---
-title: "Home Page - Personal website of Juliette Tariel-Adam "
+title: "Personal website of Juliette Tariel-Adam "
 about:
   template: solana
   image: images/Photo home page.jpg
