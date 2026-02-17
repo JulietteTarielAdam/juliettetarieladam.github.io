@@ -41,6 +41,8 @@ format:
     theme:
       - minty # other possible themes: materia, lumen, cerulean
     css: styles.css
+    toc: true     
+    toc-location: right
 
 bibliography:
       - publications/mypublications.bib
