@@ -134,12 +134,11 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 | 2024 | Biodiversity and Conservation fieldtrip | Macquarie University | Third-year bachelor | 24 | Assisted students with fieldwork data collection and analysis in R |
 | 2024 | Life diversity | Macquarie University | Second-year bachelor | 9 | In-person pracs on data collection and analysis using R |
 | 2024 | Biological data analysis | Macquarie University | Second-year bachelor | 24 | Online pracs on various data analysis using R |
-| XXXX | Fieldtrip | Claude Bernard Lyon 1 University | XX | XX | XX |
-| XXXX | Phenotypic plasticity | Claude Bernard Lyon 1 University | Third-year bachelor | XX | In-person pracs on paper analysis and oral presentation |
-| XXXX | Life morphological diversity | Claude Bernard Lyon 1 University | Second-year bachelor | XX | In-person pracs |
-| XXXX | Life diversity | Claude Bernard Lyon 1 University | First-year bachelor | XX | In-person pracs |
-| XXXX | Digital literacy | Claude Bernard Lyon 1 University | First-year bachelor | XX | In-person pracs |
-
+| 2018-2019 | Fieldtrip | Claude Bernard Lyon 1 University | TBD | TBD | Assisted students with fieldwork data collection |
+| 2018-2019 | Phenotypic plasticity | Claude Bernard Lyon 1 University | Third-year bachelor | TBD | In-person pracs on paper analysis and oral presentation |
+| 2018-2019 | Life morphological diversity | Claude Bernard Lyon 1 University | Second-year bachelor | TBD | In-person pracs |
+| 2018-2019 | Life diversity | Claude Bernard Lyon 1 University | First-year bachelor | TBD | In-person pracs |
+| 2018-2019 | Digital literacy | Claude Bernard Lyon 1 University | First-year bachelor | TBD | In-person pracs |
 
 : {.striped tbl-colwidths="[7, 22, 22, 14, 1, 32]"}
 
