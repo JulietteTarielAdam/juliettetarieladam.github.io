@@ -2,6 +2,10 @@
 title: "JTA's scientific projects"
 ---
 
+# Link across projects
+
+My projects may seem a little scattered at first glance, but I’ve tried to balance my core motivations with the opportunities that came my way. I discovered my first driving force at the age of seven, while snorkelling in a coral reef: how amazing was it to see and interact with so many fishes! I discovered my other guiding interests during my academic career: evolutionary biology and behavioural ecology. The questions in these fields have consistently captured my attention the most. During my PhD, I also realised how important justice is to me as a core value, alongside love and truth. That is what drew me to open science.
+
 # Current projects 
 
 ## ☀️ Open science
