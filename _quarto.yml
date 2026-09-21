@@ -5,6 +5,9 @@ project:
     - pdfs
     - images
     - publications
+    
+execute: 
+  freeze: auto
 
 website:
   title: "Juliette Tariel-Adam"

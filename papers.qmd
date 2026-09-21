@@ -11,7 +11,7 @@ nocite: |
 
 {{< fa brands orcid >}} ORCID profile:  [https://orcid.org/0000-0003-1552-4088](https://orcid.org/0000-0003-1552-4088)
 
-{{< fa brands researchgate >}} Research Gate profile: [https://www.researchgate.net/profile/Juliette-Tariel-Adam](https://www.researchgate.net/profile/Juliette-Tariel-Adam)
+{{< fa brands researchgate >}} ResearchGate profile: [https://www.researchgate.net/profile/Juliette-Tariel-Adam](https://www.researchgate.net/profile/Juliette-Tariel-Adam)
 
 # 📃 Publication list
 ::: {#refs}

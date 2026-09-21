@@ -14,6 +14,20 @@ Explore [my commitments here](commitments.qmd).
 
 See all [ongoing and past projects here](projects.qmd).
 
+# 🎓 Academic positions and Education
+
+| Year | Position or degree | Institution | 
+| ---- | ------------------ | ----------- | 
+| 2024–ongoing | Honorary postdoctoral researcher | Macquarie University |
+| 2022–2024 | Postdoctoral researcher | Macquarie University |
+| 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |
+| 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | Pierre and Marie Curie University | 
+| 2013–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | 
+| 2011–2013| Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | 
+
+: {.striped tbl-colwidths="[20,40,40]"}
+
+
 # 🤿 Occupational diving experience
 
 + **PADI Dive Master** at Dive Center Manly, Sydney (Nov 2024–Feb 2025). </br>
@@ -26,10 +40,10 @@ Led two research field trips (Sydney and Ningaloo, Australia), with responsibili
 ## 🐟 Data collection
 + **Fish behaviour in the wild**: Designed and implemented experiments to observe fish behaviour in the field using scuba diving, snorkelling and live or remote video recordings. Analysed videos manually or using Boris software.
 + **Marine fieldwork organisation**: Planned and led two field trips involving scuba diving and snorkelling in Australia. Responsibilities included securing funding, obtaining permits and ethics approval, risk assessments, team training, and field logistics.
-+ **Fish behaviour in the lab**: Designed and set up laboratory experiments to video-record fish behaviour (such as tool use, personality, mate choice). Analysed videos manually or with automatic position tracking on R.
++ **Fish behaviour in the lab**: Designed and set up laboratory experiments to video-record fish behaviour (such as tool use, personality, mate choice). Analysed videos manually or with automatic position tracking in R.
 + **Community science**: Developed a campaign to collect data and raise awareness about fish tool use, which included creating a questionnaire, coding a website in CSS and HTML, developing an email sending strategy and creating social media posts.
 + *Snail behaviour and morphology in the lab*: Reared *Physa acuta* snails with or without odours of predators in the lab and assessed their anti-predator defences (morphology and behaviour). Analysed their morphology using ImageJ or the Momocs R package.
-+ *Microsatellite sequencing*: Performed DNA extraction, PCR and peak assignment on Geneious.
++ *Microsatellite sequencing*: Performed DNA extraction, PCR and peak assignment in Geneious.
 + *RAD sequencing*: Performed DNA extraction and library preparation for Illumina sequencing.
 
 ## 🔎 Data analysis
@@ -54,7 +68,7 @@ I believe data analysis is my favourite part of the research process. I complete
 
 + **Social media engagement**: Developed a social media campaign for the fish tool use project. Produced engaging posts and reels for Instagram using Adobe Premiere Pro.
 
-+ **Press release writing**: Wrote two press releases and followed a [2-day science communitication online workshop](https://zenodo.org/records/7050776){target="_blank"}. 
++ **Press release writing**: Wrote two press releases and followed a [2-day science communication online workshop](https://zenodo.org/records/7050776){target="_blank"}. 
 
 + **Popular science communication**: [Interviewed for a Canadian radio](https://www.cbc.ca/listen/live-radio/1-51-quirks-and-quarks/clip/16138215-animal-tool-use-fishy){target="_blank"}. Reached the semi-finals of the 2023 FameLab competition, which included a one-day online training in science communication.
 
@@ -64,9 +78,9 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 + **Academic communication**:
   - *Scientific paper writing*: Wrote multiple scientific articles as first author. 
   - *Collaborative paper writing*: Managed collaborative writing with multiple authors.
-  - *Document writing and editing*: Wrote manuscripts on LateX, Word or Google Docs.
+  - *Document writing and editing*: Wrote manuscripts on LaTeX, Word or Google Docs.
   - *Oral and poster presentation* at scientific conferences. Used powerpoint (oral presentation) or Adobe Illustrator (poster). See all [my conference contributions here](#talks).
-  - *Scientific figure creation*: I believe figure creation is the my second favourite part of the research process, after data analysis! I use Adobe Illustrator, Inkscape and the ggplot2 R package.
+  - *Scientific figure creation*: I believe figure creation is my second favourite part of the research process, after data analysis! I use Adobe Illustrator, Inkscape and the ggplot2 R package.
 
 ## Other academic skills
 
@@ -74,7 +88,7 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 
 + **Student supervision**. 
   - Supervised 2 graduate and 2 undergraduate students in media and communication, 1 undergraduate in education for the fish tool use project: Wayne Inchiparambil, Faria Awais, Anietta Susane Samuel, Simran Wadhwa, Nicole Romanos.
-  - Co-supervised 5 graduate and 1 undergraduate biology students: Cyndi-Lee Harrison-Burgess,Loéva Martin-Podevin, Alice Fontaine, Anaïs Arzel, Estelle Champion, Delia Ben Sussan.
+  - Co-supervised 5 graduate and 1 undergraduate biology students: Cyndi-Lee Harrison-Burgess, Loéva Martin-Podevin, Alice Fontaine, Anaïs Arzel, Estelle Champion, Delia Ben Sussan.
   - Attended a half-day workshop 'Giving effective feedback' co-organised by Hugh Kearns and Macquarie University.
   - I would like to receive more supervision training in my next position.
 
@@ -94,24 +108,9 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 + *Fluent in English and French*
 + *International relations*
 + *Self-motivation, management and learning*
-+ *Adaptation to change and flexibility*: Completed four research internships, one PhD and one postdoc, all of which in different labs and 4 different countries
++ *Adaptation to change and flexibility*: Completed four research internships, one PhD and one postdoc, each in a different lab across 4 countries
 + *Problem solving and creative thinking*: Academic research requires daily problem-solving and the ability to address unexpected challenges.
 + *Attention to detail and rigour*: Research work demands meticulous attention to detail to minimise errors and ensure accurate findings
-
-
-# 🎓 Academic positions and Education
-
-| Year | Position or degree | Institution | 
-| ---- | ------------------ | ----------- | 
-| 2024–ongoing | Honorary postdoctoral researcher | Macquarie University |
-| 2022–2024 | Postdoctoral researcher | Macquarie University |
-| 2017–2020 | PhD in Evolutionary Ecology | Claude Bernard Lyon 1 University |
-| 2016–2017 | Master’s Degree in Ecology, Biodiversity and Evolution | University of Pierre et Marie Curie | 
-| 2015–2016 | Master’s and Bachelor’s Degrees in Biosciences | École Normale Supérieure de Lyon | 
-| 2015–2016 | Preparatory Classes for Grandes Écoles | Lycée Saint-Louis | 
-
-: {.striped tbl-colwidths="[20,40,40]"}
-
 
 
 # 👩‍🏫 Teaching
@@ -135,16 +134,17 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 | 2024 | Biodiversity and Conservation fieldtrip | Macquarie University | Third-year bachelor | 24 | Assisted students with fieldwork data collection and analysis in R |
 | 2024 | Life diversity | Macquarie University | Second-year bachelor | 9 | In-person pracs on data collection and analysis using R |
 | 2024 | Biological data analysis | Macquarie University | Second-year bachelor | 24 | Online pracs on various data analysis using R |
-| 2019-2020 | Phenotypic plasticity | Claude Bernard Lyon 1 University | Third-year bachelor | 24 | In-person pracs on paper analysis and oral presentation |
-| 2018-2019 | Fieldtrip | Claude Bernard Lyon 1 University | Third-year bachelor | 16 | Assisted students with fieldwork data collection |
-| 2018-2019 | Life morphological diversity | Claude Bernard Lyon 1 University | Second-year bachelor | 36 | In-person pracs |
-| 2018-2020 | Life diversity | Claude Bernard Lyon 1 University | First-year bachelor | 100 | In-person pracs |
-| 2017-2018 | Digital literacy | Claude Bernard Lyon 1 University | First-year bachelor | 16 | In-person pracs |
+| 2019–2020 | Phenotypic plasticity | Claude Bernard Lyon 1 University | Third-year bachelor | 24 | In-person pracs on paper analysis and oral presentation |
+| 2018–2019 | Fieldtrip | Claude Bernard Lyon 1 University | Third-year bachelor | 16 | Assisted students with fieldwork data collection |
+| 2018–2019 | Life morphological diversity | Claude Bernard Lyon 1 University | Second-year bachelor | 36 | In-person pracs |
+| 2018–2020 | Life diversity | Claude Bernard Lyon 1 University | First-year bachelor | 100 | In-person pracs |
+| 2017–2018 | Digital literacy | Claude Bernard Lyon 1 University | First-year bachelor | 16 | In-person pracs |
 
 : {.striped tbl-colwidths="[7, 22, 22, 18, 1, 30]"}
 
 # 💬 Talks
 ## Invited talks
++ 2026, PAWS Talks (Presentation in Animal and Wildlife Science), online for the University of South Bohemia: 'Fish Using Tools'
 + 2025, Institute for Applied Ecology seminar, University of Canberra (Australia): 'Fish Using Tools: Uncovering Factors Driving Tool Use Evolution'
 + 2025, MECADEV seminar, Muséum national d'Histoire naturelle (France): 'Des poissons qui utilisent des outils : Comprendre les determinants de l'évolution de la capacité à utiliser des outils'
 + 2024, Evolution & Ecology Research Centre seminar, University of New South Wales (Australia): 'Transgenerational plasticity as a mechanism to adapt to a variable environment?'
@@ -152,27 +152,27 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
 + 2022, Evolution / Behavior & Evolution seminar, online for Bielefeld University (Germany): 'Characterisation of transgenerational plasticity: the case of predator-induced defences of the gastropod Physa acuta' 
 
 ## Oral conference contributions
-
-+ ASFB 2024, annual conference of the Australian Society for Fish Biology, Newcastle (Australia): 'Fish using tools: Factors driving tool use evolution'
-+ ISBE 2024, biennial meeting of the International Society for Behavioral Ecology, Melbourne (Australia): 'Fish using tools: Factors driving tool use evolution'
-+ IPFC 2023, quadrennial Indo-Pacific Fish Conference, Auckland (New Zealand): 'Fish using tools: Factors driving tool use evolution'
-+ ISBE 2022, biennial meeting of the International Society for Behavioral Ecology, in Stochkolm (Sweden): 'Timing of predator perception does not shape transgenerationally-induced changes in behaviour'
-+ ESEB 2019, biennial congress of the European Society for Evolutionary Biology, Turku (Finland): 'Maternal or paternal contribution to transgenerational plasticity? Study case on anti-predator defences in *Physa acuta*'
-+ Ecology & Behaviour symposium 2019, Toulouse (France): 'Parental and developmental environmental effects on behavioral reaction norms in response to predation'
++ ISBE 2026, Biennial meeting of the International Society for Behavioral Ecology, Turino, Italy: ‘Fish using tools: Fundamental knowledge and evolution of anvil use in wrasses’
++ ASFB 2024, Annual conference of the Australian Society for Fish Biology, Newcastle (Australia): 'Fish using tools: Factors driving tool use evolution'
++ ISBE 2024, Biennial meeting of the International Society for Behavioral Ecology, Melbourne (Australia): 'Fish using tools: Factors driving tool use evolution'
++ IPFC 2023, Quadrennial Indo-Pacific Fish Conference, Auckland (New Zealand): 'Fish using tools: Factors driving tool use evolution'
++ ISBE 2022, Biennial meeting of the International Society for Behavioral Ecology, in Stockholm (Sweden): 'Timing of predator perception does not shape transgenerationally-induced changes in behaviour'
++ ESEB 2019, Biennial congress of the European Society for Evolutionary Biology, Turku (Finland): 'Maternal or paternal contribution to transgenerational plasticity? Study case on anti-predator defences in *Physa acuta*'
++ Ecology & Behaviour Symposium 2019, Toulouse (France): 'Parental and developmental environmental effects on behavioral reaction norms in response to predation'
 + Sfe² 2018, International Conference on Ecological Sciences organised by the Sfe² - French Society for Ecology and Evolution, Rennes (France): 'Developmental and transgenerational carry-over effects on behavioural reaction norms in response to predation'
 
 ## Poster conference contributions
 
-+ SFECA 2025, annual meeting of the Société Française d'Étude du Comportement Animal, Nanterre (France): 'Fish using tools: Factors driving tool use evolution'
++ SFECA 2025, Annual meeting of the Société Française d'Étude du Comportement Animal, Nanterre (France): 'Fish using tools: Factors driving tool use evolution'
 + YNMH 2019, Young Natural History Scientists meeting, Paris (France), ⭐ 2nd poster price: 'Maternal or paternal contributions to transgenerational plasticity of the freshwater snail *Physa acuta* in response to predation'
-+ II Joint Congress on Evolutionary Biology 2018, joint congress of the scientific societies ESEB, ASN, SSE and SSB, Montpellier (France): 'Intra- and transgenerational carry-over effects on behavioural reaction norms of the freshwater snail *Physa acuta* in response to predation'
-+ Sfe² 2018, International Conference on Ecological Sciences organised by the Sfe² - French Society for Ecology and Evolution, Rennes (France),  ⭐ 1st poster price: 'Maternal or paternal contributions to transgenerational plasticity
-of the freshwater snail *Physa acuta* in response to predation'
++ II Joint Congress on Evolutionary Biology 2018, Joint congress of the scientific societies ESEB, ASN, SSE and SSB, Montpellier (France): 'Intra- and transgenerational carry-over effects on behavioural reaction norms of the freshwater snail *Physa acuta* in response to predation'
++ Sfe² 2018, International Conference on Ecological Sciences organised by the Sfe² - French Society for Ecology and Evolution, Rennes (France),  ⭐ 1st poster price: 'Maternal or paternal contributions to transgenerational plasticity of the freshwater snail *Physa acuta* in response to predation'
 
 
 # 🙌 Grants
 | Grant | Granter | Year | Amount | 
 | ----- | ------- | ---- |------ | 
+| Conference travel grant | SFECA | 2026 | EUR 400 | 
 | Conference travel grant | SFECA | 2025 | EUR 200 | 
 | Conference travel grant | ISBE | 2024 | EUR 1,200 |
 | Conference travel grant | FSBI | 2023 | GBP 1,000 |
