@@ -6,6 +6,7 @@ images/
 images raw/
 pdfs/
 publications/
+presentations/
 
 .quarto/
 **/*.quarto_ipynb
