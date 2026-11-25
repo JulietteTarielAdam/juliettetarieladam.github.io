@@ -5,6 +5,7 @@ project:
     - pdfs
     - images
     - publications
+    - presentations
     
 execute: 
   freeze: auto

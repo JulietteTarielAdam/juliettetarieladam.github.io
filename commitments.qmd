@@ -14,7 +14,7 @@ I would like to help ensure that the scientific community creates reliable and a
 
 ### Volunteering
 
-+ Volunteer with [SORTEE](https://sortee.org)[^2] (Society for Open, Reliable and Transparent biology in Ecology and Evolution):
++ Volunteer with [SORTEE](https://sortee.org){target="_blank"}[^2] (Society for Open, Reliable and Transparent biology in Ecology and Evolution):
   - Secretary (2026)
   - Member of the Board of directors (2026-2029)
   - Conference Committee member: *responsible for organising the 24-hour online SORTEE conference on open science*:
@@ -24,7 +24,7 @@ I would like to help ensure that the scientific community creates reliable and a
   
 [^2]: What is SORTEE? SORTEE is not just a scientific society – it is an inspiring community full of motivated and knowledgeable people. I highly recommend joining, regardless of your career stage or experience with open science. As a member, you will gain access to an active Slack channel for support, information on open science initiatives and job opportunities, free events like conferences, code clubs, workshops, seminars, and networking opportunities to find collaborators.
 
-+ Volunteer with the [Peer Community Journal](https://peercommunityjournal.org)[^3]:
++ Volunteer with the [Peer Community Journal](https://peercommunityjournal.org){target="_blank"}[^3]:
   - Data editor (2026-ongoing): *reviewing data and code before publication*
   - Assistant editor (2023-2025): *final edits and reference checks before publication*
 
@@ -32,10 +32,12 @@ I would like to help ensure that the scientific community creates reliable and a
 
 ### Training others
 
++ Gave a workshop on [How to share data and code](presentations\26-11_How to share data and code\index.html){target="_blank"}
++ Gave a workshop on [open science practices](presentations\26-07_SORTEE-open-science-practices.pdf){target="_blank"} at the ISBE 2026 conference
 + Organised a shared PCJ/SORTEE 5-day booth at the 2026 ISBE conference
-+ Participated in the [SORTEE guide for collaborations](https://doi.org/10.17605/OSF.IO/9CTNW)
-+ Attended the Train-the-Trainer workshops in 2026 offered by the Horizon Europe initiative [iRISE](https://irise-project.eu)
-+ Attended the [Open Science Instructor Training](https://lmu-osc.github.io/events/events/2025-09-15-lmu-open-science-summer-school.html) in 2025 offered by the LMU Open Science Center
++ Participated in the [SORTEE guide for collaborations](https://doi.org/10.17605/OSF.IO/9CTNW){target="_blank"}
++ Attended the Train-the-Trainer workshops in 2026 offered by the Horizon Europe initiative [iRISE](https://irise-project.eu){target="_blank"}
++ Attended the [Open Science Instructor Training](https://lmu-osc.github.io/events/events/2025-09-15-lmu-open-science-summer-school.html){target="_blank"} in 2025 offered by the LMU Open Science Center
 + Introduced and informally discussed open science issues and solutions with colleagues in my PhD and postdoc labs
 + Created and delivered a presentation to my PhD and postdoc teams on key problems in the current publication system and how to address them
 
@@ -43,7 +45,7 @@ I would like to help ensure that the scientific community creates reliable and a
 ### Practices 
 
 + Carefully choose journals for publication
-  - Created and shared a [table comparing journals in biology](https://juliettetarieladam.notion.site/c75ab3f7555945fd918a1522ce3d83b3?v=27e375667b258023b696000c18bdbfb0&pvs=74) based on their publication model and publisher.
+  - Created and shared a [table comparing journals in biology](https://juliettetarieladam.notion.site/c75ab3f7555945fd918a1522ce3d83b3?v=27e375667b258023b696000c18bdbfb0&pvs=74){target="_blank"} based on their publication model and publisher.
   - Published the final paper from my PhD in the Peer Community Journal. It has been a challenging process to stand up against what my supervisors preferred.
   - Published my first postdoc paper in Coral Reefs. I initially submitted the paper to Marine Ecology Progress Series, but it was rejected. I couldn't find any other ethical journal in marine biology within the scope of my study, so I then chose Coral Reefs. It is affiliated with a scientific society but is hosted by Springer and has a hybrid publication system.
   - I plan to publish my future publications in the PCJ or fully open-access journals hosted by non-profit organisations.
@@ -51,9 +53,9 @@ I would like to help ensure that the scientific community creates reliable and a
 + Publish in open access. Find PDF of my publications on the [Papers page](papers.qmd#publication-list).
 
 ### Getting trained
-+ Attended the [Summer School Open Science 2023](https://lmu-osc.github.io/OSC-Open-Research-Summer-School-2023/) hosted by the LMU Open Science Center
-+ Attended the [Oxford|Berlin Summer School on Open Research 2021](https://s-quest.bihealth.org/BeOx/index.html) 
-+ Attended [annual SORTEE conferences](https://sortee.org/past/) on open science since 2021
++ Attended the [Summer School Open Science 2023](https://lmu-osc.github.io/OSC-Open-Research-Summer-School-2023/){target="_blank"} hosted by the LMU Open Science Center
++ Attended the [Oxford|Berlin Summer School on Open Research 2021](https://s-quest.bihealth.org/BeOx/index.html){target="_blank"} 
++ Attended [annual SORTEE conferences](https://sortee.org/past/){target="_blank"} on open science since 2021
 
 
 
@@ -80,7 +82,7 @@ I would like to help ensure that the scientific community creates reliable and a
 
 ### Practices
 + Display  LGBTIQ+ and First Nations flags in my office
-+ Use a [color blindness simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) to design my figures
++ Use a [color blindness simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/){target="_blank"} to design my figures
 
 ### Getting trained
 + Attended the Ally LGBTIQ+ training in 2023 offered by Macquarie University
@@ -92,7 +94,7 @@ I would like to help ensure that the scientific community creates reliable and a
 
 # ♻️ Sustainable science
 
-Scientists aim to protect living beings, and yet our work often contributes to climate change and pollution. For example, [an academic researcher from the CNRS emits more CO₂](https://www.cnrs.fr/fr/actualite/le-cnrs-calcule-son-deuxieme-bilan-carbone) annually than the average French citizen. This needs to change.
+Scientists aim to protect living beings, and yet our work often contributes to climate change and pollution. For example, [an academic researcher from the CNRS emits more CO₂](https://www.cnrs.fr/fr/actualite/le-cnrs-calcule-son-deuxieme-bilan-carbone){target="_blank"} annually than the average French citizen. This needs to change.
 
 ### Practices
 + Use trains for travel since 2022, with exceptions for the 2023 IPFC in New Zealand and fieldwork in Exmouth in 2025

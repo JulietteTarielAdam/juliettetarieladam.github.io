@@ -92,7 +92,7 @@ https://papiermachesciences.org/2024/01/23/la-plasticite-transgenerationnelle-un
   - Attended a half-day workshop 'Giving effective feedback' co-organised by Hugh Kearns and Macquarie University.
   - I would like to receive more supervision training in my next position.
 
-+ **Academic publishing**: Performed final editing and reference review of manuscripts using Word and LaTeX for [Peer Community Journal](https://peercommunityjournal.org) in 2023 and 2024.
++ **Academic publishing**: Performed final editing and reference review of manuscripts using Word and LaTeX for [Peer Community Journal](https://peercommunityjournal.org){target="_blank"} in 2023 and 2024.
 
 + **Grant writing**: See the list of [awarded grants here](#grants).
 

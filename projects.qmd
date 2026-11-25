@@ -14,9 +14,9 @@ My projects may seem a little scattered at first glance, but I’ve tried to bal
 
 ## 🔨 Tool use by fishes   {{< fa tag >}} First postdoc
 
-{{< fa globe >}} Project website: [https://fishtooluse.com](https://fishtooluse.com)
+{{< fa globe >}} Project website: [https://fishtooluse.com](https://fishtooluse.com){target="_blank"}
 
-{{< fa brands instagram >}} Project instagram: [https://www.instagram.com/fishtooluse/](https://www.instagram.com/fishtooluse/)
+{{< fa brands instagram >}} Project instagram: [https://www.instagram.com/fishtooluse/](https://www.instagram.com/fishtooluse/){target="_blank"}
 
 I have been conducting a project on *anvil use by fishes* with Professor Culum Brown at the [Fish Lab](https://thefishlab.com/){target="_blank"} at Macquarie University (Sydney, Australia) since October 2022. It feels like an achievement to finally work on coral reef fish behaviour – my long-term goal – with the world expert on fish behaviour and cognition!
 

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/solarized.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<style>
+.reveal h1 {
+  font-size: 1.8em;
+}
+.reveal h1 + * {
+  margin-top: 0;
+}
+.reveal h2 {
+  text-transform: none;
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+.reveal h2 + * {
+  margin-top: 0;
+}
+.reveal p{
+  font-size: 0.7em;
+}
+.reveal li {
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+.reveal table {
+  font-size: 0.5em;
+}
+</style>
+
+# Sharing data and code: the why, what and how
+Juliette Tariel-Adam
+
+ESLR worshop
+
+26 November, 2026
+
+Licence for this presentation: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🤔 Why sharing data and code?
+https://www.menti.com/althd4edkdnj
+
+<img src="26-11_Mentimeter-QR-code_share data and code.png" alt="" style="width: 300px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🤔 Why sharing data and code?
+- **Increase research transparency and trust**: disincentive fraud, readers / peer-reviewers can better understand and assess the methods (e.g. data cleaning steps, exclusions, parameters)
+- **Increase research reproducibility**: Aids error detection, insure computational reproducibility (=same results given the same data, workflow & conditions)
+- **Allow data reuse and new discoveries**: limit research waste, allow secondary analysis and meta-analyses
+- **Increase research efficiency**: we are not reinventing the wheel at every statistical analysis, insure long-term and easy access to our data and code for researchers within and outside your lab
+</div>
+
+<aside class="notes"><p>When I was peer-reviewing, I was much more relevant to improve the manuscript if data and code was there: understand what authors did, spot mistakes. 
+This is for research. What about yourself?</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🎁 Why is it beneficial for you?
+https://www.menti.com/althd4edkdnj
+
+<img src="26-11_Mentimeter-QR-code_share data and code.png" alt="" style="width: 300px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🎁 Why is it beneficial for you?
+- **Good for your future self**: easily find and understand your own workflow after 6 months
+- **Promote collaboration**: people might ask you to collaborate on their projects when using your data / code 
+- **Increase your credibility**: show that you care about making your results reliable, trustworthy and transparent, showcase your coding skills
+- **Increase your citations and visibility**: shared datasets and code can be cited on their own, and papers that share data tend to get more citations
+</div>
+
+<aside class="notes"><p>Journals also benefits because their fuel is prestige and trust: more citations, increase trust from researchers in their editorial processes</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 0.8em" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🚨 Current state of data and code sharing
+**Gabelica et al. 2022. Many researchers were not compliant with their published data sharing statement: a mixed-methods study. https://doi.org/10.1016/j.jclinepi.2022.05.019**
+
+"The most frequent Data Availability Statement category (42%) indicated that the data sets are available on reasonable request. Among 1792 manuscripts in which the DAS indicated that authors are willing to share their data, 1669 (93%) authors either did not respond or declined to share their data with us. Among 254 (14%) of 1792 authors who responded to our query for data sharing, only 123 (6.8%) provided the requested data."
+
+**Ivimey-Cook et al. 2026. Open Code in Ecology and Evolutionary Biology: An Evidence-Based Appraisal by SORTEE. https://doi.org/10.32942/X27D4F**
+
+"Generally, studies have shown that computational reproducibility is low, largely due to the low proportion of articles that share analytical code or the low functionality of code. For instance, Kellner et al. (2025) abandoned their reproducibility assessment due to the low number of articles sharing code that ran without error or excessive runtime (7% of 497 studies had code that ran)."
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🔍 Why don't we share data and code? 
+https://www.menti.com/althd4edkdnj
+
+<img src="26-11_Mentimeter-QR-code_share data and code.png" alt="" style="width: 300px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🔍 Why don't we share data and code? 
+<img src="Gomes 2022_Why don't we share data and code.png" alt="" style="width: 650px; object-fit: fill">
+
+
+Gomes et al. 2022. Why don't we share data and code? Perceived barriers and benefits to public archiving practices. Proc R Soc B. <!-- .element: style="font-size: 0.5em" -->  https://doi.org/10.1098/rspb.2022.1113  <!-- element style="" ="font-size: 0.5em" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ⚖️ Fair Principles
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ⚖️ Fair Principles
+<img src="The Turing Way_illustration FAIR principles.svg" alt="" style="width: 500px; object-fit: fill">
+
+"The FAIR data principles state that it should be easy to find research data, they should contain information about how to gain access to them, they should be compatible with other data, and possible to reuse" ([Swedish National Data Service, n.d.](https://researchdata.se/en/manage-data/describe-share-and-preserve-data/fair-principles))
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 📃 Licence
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 0.8em" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 📃 Licence
+Licenses are standard contracts that regulate usage rights for published work. Without a licence, nobody is (theoretically) allowed to reuse your work!
+
+## Most common licences
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you agree that people can use and adapt your work, including for commercial purposes. People must give appropriate credit to the authors, state and link to the licence. 
+Credit example: "Adapted from Dupont & Garcia (2024), Sleep and Memory Consolidation Dataset, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
+- [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/): public domain. You agree that people use and adapt your work, including for commercial purposes. They don't need to credit you. 
+- Use https://choosealicense.com/ if unsure about which licence to choose
+
+## How does it look like?
+- A link on the right panel of the repository website. Example: [Figshare](https://figshare.com/articles/dataset/_b_Emerging_b_b_decline_in_critical_soil_moisture_threshold_of_plant_water_stress_across_global_drylands_b_/35102203), [Zenodo](https://zenodo.org/records/4243834)
+- A text document, usually named LICENCE, at the root of your folder. Example: https://github.com/JulietteTarielAdam/Life-beyond-a-jar
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ℹ️ What is a metadata?
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ℹ️ What is a metadata?
+Metadata is data about data, so data that describes other data. It is a set of structured information that describes, explains and locates a data file, in order to make it easier to find, use and manage. Metadata is essential for discovering, sharing and reusing the data available in repositories.
+</div>
+
+<aside class="notes"><p>Une métadonnée est une donnée qui décrit une autre donnée. Plus précisément, il s&#39;agit d&#39;un ensemble d&#39;informations structurées qui décrit, explicite et localise une ressource informationnelle, dans le but d&#39;en faciliter la recherche, l&#39;usage et la gestion. Les métadonnées constituent un élément essentiel pour la découverte, le partage et la réutilisation des données accessibles via les portails et entrepôts de données.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ✏️ Let's assess some articles!
+https://docs.google.com/spreadsheets/d/1vVIcgrkqzWpOkSQhnGtX4HI23b-3ijieNLCzUmKkSek/edit?usp=sharing
+</div>
+
+<aside class="notes"><p>FINDABLE</p>
+<ul>
+<li>Are the data and code easy to locate from the manuscript?</li>
+<li>Do they have a unique and persistent identifier?</li>
+<li>Once you are in the repository, is it easy to find how the data were generated (methods written or link to the paper)?
+ACCESSIBLE</li>
+<li>Is data available and downloadable?</li>
+<li>Is code available and downloadable?</li>
+<li>If not, are conditions of access clearly defined? e.g. embargo period
+INTEROPERABLE</li>
+<li>Do data and metadata use open formats? e.g. txt, md, csv, pdf, odt.</li>
+<li>Is code written in commonly used programming languages? e.g. R, py
+REUSABLE</li>
+<li>Is the metadata sufficient to understand each data set without opening it? </li>
+<li>Is there a data dictionary or variable descriptions for each dataset? </li>
+<li>Is the metadata sufficient to understand the code workflow and what each code file does? </li>
+<li>Is there code annotation? </li>
+<li>Is there a licence?</li>
+<li>Are the software and packages versions provided?</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="font-size: 0.8em" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# ✨ Main advice
+- Put yourself in someone else's shoes that want to understand what you have done or reuse your data / code! What information do they need? How can they navigate easily between your files?
+- Organise all your files (data and code) in a single folder (called your repository or repo). 
+	- Inside this folder, use a clear folder project structure.
+	- Don't hesitate to number your scripts to give a clear order
+- Provide a detailed ReadMe file (see next slide)
+- Provide all data (raw, intermediate and processed) and all code (processing data, statistical analysis and figure generation)
+- Provide metadata to your variables (in a data dictionary or in the ReadMe file)
+- Clearly organise and annotate your code. Don't hesitate to add lines to comment outputs
+- Share your repository in a public repository that assigns a DOI such as Zenodo, FigShare, Dryad
+- Share it with a licence! Recommendation: CC BY 4.0 or CC0 1.0. Or use https://choosealicense.com/
+- Cite the DOI of your repository in your manuscript in the Data Availability Statement (you can manually add the Data Availability Statement just before the references if it isn't in the journal template)
+</div>
+
+<aside class="notes"><h2 id="why-providing-data-wrangling-code">Why providing data wrangling code</h2>
+<p>Participants felt it is important to publish code for both the actual statistical analysis as well as the data wrangling done beforehand, because coding errors during data wrangling can have a large impact on downstream analyses. For example, indexing the wrong data column has catastrophic effects for the reliability of your results. In the best case scenario, you would deposit both the raw data and all the code to reproduce data wrangling and the statistical analysis. However, even if you are not able to openly publish the raw data files - for example because the data provider did not agree to this sharing - it is important to still publish the data wrangling code (in a separate script) that produced the processed data files you eventually used for analysis (main script)</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 🗂️ Folder structure
+<img src="Project folder structure.png" alt="" style="width: 400px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 📄ReadMe
+It is a standalone text file describing all files in your folder.
+
+Example (with two missing info for you to spot!): https://github.com/JulietteTarielAdam/Life-beyond-a-jar
+
+
+It should include:
+- Title and authors of the manuscript
+- Contact information
+- If possible, DOI and link to the manuscript
+- Detailed folder structure 
+- Data description (if not provided in a data dictionary)
+- Code description: what each script does, order to run them
+- Software/dependencies: R version, R packages used and their version
+- License (if not provided as a standalone document or in the repository website)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 𝄜 Data dictionary
+A data dictionary defines and describes the variables of a dataset so that it can be understood and used at a later date. 
+
+| Variable                       | Variable name            | Variable type (measurement unit) | Values                                                       | Description                                                                                      |
+| ------------------------------ | ------------------------ | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| *As stated in your manuscript* | *As stated in your code* |                                  | *min-max / factors levels*                                   | *Any comments about the variable*                                                                |
+| Animal ID                      | ID                       | Factor                           | e.g. F12, G47                                                | First letter is for the population and then it is a random number assigned in a sequential order |
+| Population                     | Population               | Factor                           | e.g. Fra5 = France population 5, Ger3 = Germany population 3 |                                                                                                  |
+| Age class                      | Age                      | Factor                           | juv = juvenile, ad = adult                                   |                                                                                                  |
+| Standard lenght                | Length                   | Numeric (cm)                     | 20 - 80 cm                                                   | From the tip of the snout to the posterior end of the last vertebra                              |
+| Latency to approach            | Latency                  | Numeric (sec)                    | 1 - 300 sec                                                  |                                                                                                  |
+| Date of capture                | Date                     | yyyy-mm-dd                       | e.g. 2024-12-08                                              |                                                                                                  |
+</div>
+
+<aside class="notes"><h2 id="automatic-data-dictionary-in-r">Automatic data dictionary in R</h2>
+<pre><code class="language-r">library(labelled)
+# Labels de variables
+var_label(clinical_data_clean) &lt;- list(
+  subject_id = &quot;Identifiant du sujet&quot;,
+  site = &quot;Centre investigateur&quot;,
+  sexe = &quot;Sexe du patient&quot;
+)
+# Labels de valeurs
+val_labels(clinical_data_clean$sexe) &lt;- c(&quot;Homme&quot; = 1, &quot;Femme&quot; = 2)
+val_labels(clinical_data_clean$visit) &lt;- c(&quot;Screening&quot; = &quot;SCR&quot;,
+                                            &quot;Mois 1&quot; = &quot;M1&quot;,
+                                            &quot;Mois 3&quot; = &quot;M3&quot;)
+val_labels(clinical_data_clean$site) &lt;- c(&quot;Lariboisière&quot; = 101,
+                                           &quot;CHU Lyon&quot; = 102,
+                                           &quot;IPC (Marseille)&quot; = 103) 
+# Generate data dictionary
+library(guideR)
+data |&gt;
+  view_dictionary() 
+</code></pre>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Other advice
+- Make sure all your files are in an interoperable format
+	- Sometimes it isn't possible! That's OK as long as you thought about it. 
+- Use relative file paths such as Data\Raw, or Scripts\Functions (avoid user-specific path like C:\Users\Juliette\Documents\Data\Raw)
+	- Best practice is to use an RStudio project, which automatically sets the working directory to the appropriate location (i.e. the project folder)
+	- Or use R packages such as here (Müller & Bryan, 2020) or pyprojroot (Chen 2023), which create file paths relative to any project directory regardless of operating system
+- If you have big datasets / heavy analysis, provide a subset of your data so everyone can try / check / understand / get a sense of the code
+- If possible, save your working environment in a docker or use renv() or https://github.com/ropensci/rix in R
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# How to provide R and R packages version
+```r
+# Know the versions
+packageVersion("ggplot2")
+sessionInfo()
+R.version.string
+# Get references to cite inside the ReadMe
+citation()
+citation("ggplot2")
+# Get references to cite inside the ReadMe using the grateful package
+# https://pakillo.github.io/grateful/index.html
+library(grateful) 
+grateful::cite_packages(out.dir = ".", out.format = "md") # save report to working directory
+```
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 📖 Resources
+- The TADA guidelines: Best practices to share analytical code
+	- https://eivimeycook.github.io/TADA-Wiki/tada.html
+	- https://ecoevorxiv.org/repository/view/9806/
+- LMU Open Science Center
+	- A free summer school every September on open science 
+	- Self-paced workshop on data management and sharing: https://lmu-osc.github.io/FAIR-Data-Management/
+	- Self-paced workshop on code publishing: https://lmu-osc.github.io/code-publishing/
+- University of Sheffield Fair Guidance: https://sites.google.com/sheffield.ac.uk/fair-guidance/home
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 1200px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# Join SORTEE!
+- A friendly community driven by improving research in EcoEvo, spanning all experience and career stage
+- Free membership
+- Online code club sessions for beginners
+- Monthly Webinar and Workshop series
+- Access to the SORTEE Slack workspace: ask all your questions!
+
+<img src="SORTEE.png" alt="" style="width: 700px; object-fit: fill">
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1200,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
